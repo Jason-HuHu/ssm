@@ -3,8 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.huxl.ssm</groupId>
   <artifactId>ssm</artifactId>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <version>1.0.0-SNAPSHOT</version>
+  <modules>
+    <module>ssm-boot-api</module>
+    <module>ssm-boot-web</module>
+    <module>ssm-boot-data</module>
+    <module>ssm-boot-service</module>
+  </modules>
   <name>ssm</name>
   <url>http://maven.apache.org</url>
     <properties>
@@ -16,6 +22,9 @@
         <!--MyBatis-Spring版本号-->
         <mybatis.spring.version>1.3.1</mybatis.spring.version>
     </properties>
+  <dependencyManagement>
+
+  </dependencyManagement>
   <dependencies>
     <!--Spring相关jar包-->
     <dependency>
