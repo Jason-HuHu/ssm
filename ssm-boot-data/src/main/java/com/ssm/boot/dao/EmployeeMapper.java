@@ -1,6 +1,6 @@
 package com.ssm.boot.dao;
 
-import com.huxl.ssm.bean.Employee;
+import com.ssm.boot.bean.Employee;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.huxl.ssm.controller;
+package com.ssm.boot.controller;
 
-import com.huxl.ssm.bean.Employee;
-import com.huxl.ssm.service.EmployeeService;
+import com.ssm.boot.bean.Employee;
+import com.ssm.boot.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

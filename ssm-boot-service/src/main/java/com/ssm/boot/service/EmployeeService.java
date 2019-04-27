@@ -1,7 +1,7 @@
-package com.huxl.ssm.service;
+package com.ssm.boot.service;
 
-import com.huxl.ssm.bean.Employee;
-import com.huxl.ssm.dao.EmployeeMapper;
+import com.ssm.boot.bean.Employee;
+import com.ssm.boot.dao.EmployeeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
